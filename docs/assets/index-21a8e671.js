@@ -1,4 +1,4 @@
-(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))r(a);new MutationObserver(a=>{for(const s of a)if(s.type==="childList")for(const d of s.addedNodes)d.tagName==="LINK"&&d.rel==="modulepreload"&&r(d)}).observe(document,{childList:!0,subtree:!0});function n(a){const s={};return a.integrity&&(s.integrity=a.integrity),a.referrerpolicy&&(s.referrerPolicy=a.referrerpolicy),a.crossorigin==="use-credentials"?s.credentials="include":a.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function r(a){if(a.ep)return;a.ep=!0;const s=n(a);fetch(a.href,s)}})();const o=`<!-- Modal de Almacen Virtual -->\r
+(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))d(a);new MutationObserver(a=>{for(const s of a)if(s.type==="childList")for(const r of s.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&d(r)}).observe(document,{childList:!0,subtree:!0});function n(a){const s={};return a.integrity&&(s.integrity=a.integrity),a.referrerpolicy&&(s.referrerPolicy=a.referrerpolicy),a.crossorigin==="use-credentials"?s.credentials="include":a.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function d(a){if(a.ep)return;a.ep=!0;const s=n(a);fetch(a.href,s)}})();const o=`<!-- Modal de Almacen Virtual -->\r
 <div class="modal fade" id="almacenVirtual" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"\r
     aria-labelledby="staticBackdropLabel" aria-hidden="true">\r
     <div class="modal-dialog modal-dialog-scrollable">\r
@@ -8,7 +8,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
             </div>\r
             <div class="modal-body">\r
-                Fue mi primer proyecto con un grupo de amigos hecho en php, css y JavaScript.\r
+                Fue mi primer proyecto con un grupo de amigos, en el cual \r
+                desarrollamos un almacen virtual, para vender productos y se realizado\r
+                con html, css js, pero luego se cambio la extención html por la de php,\r
+                para solucionar unos problemas a la hora de cambiar de una paagina a otra.\r
             </div>\r
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
@@ -28,7 +31,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
             </div>\r
             <div class="modal-body">\r
-                Este proyecto lo hise con una amiga, para dar asesorias web\r
+                Este proyecto lo realize en compañia de una amiga, se trata de un sitio web \r
+                para asesorar a personas que quieran tener su sitio web para empresa o personal.\r
+                se utilizo php, bosstrarp, css y JavaScript\r
             </div>\r
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
@@ -48,7 +53,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
             </div>\r
             <div class="modal-body">\r
-                Lo hice con un grupo de trabajo, para dar asesorias web\r
+                Proyecto para asesorar a personas o crearles su sitio web, este proyecto lo\r
+                realiza con unos amigos y compañeros de estudio, donde aprendi a manejar git y\r
+                github, para poder trabajar varias personas en un mismo proyecto, se aprendio,\r
+                conceptos de wiframings, como hacer responsive disabe con ayuda de boostrarp.\r
             </div>\r
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
@@ -158,7 +166,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
             </div>\r
             <div class="modal-body">\r
-                Un proyecto sencillo, para entender las bases de laravel\r
+                Un proyecto sencillo, para entender las bases, donde aprendi a utilizar los controllers,\r
+                las migraciones a la base de datos, el archivo de rutas web, y el manejo de vistas para\r
+                interatuar con el crud, tambien integre boostrarp con ayuda de vite.\r
             </div>\r
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
@@ -178,7 +188,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
             </div>\r
             <div class="modal-body">\r
-                Un sitio donde integre AdminLTE\r
+                Este proyecto aplique los conocimientos que aquiri el master de Python, donde\r
+                utilizando Django le integre un inicio de sesion, validar el formulario de\r
+                registrar productos, le integre un buscador, y tambienAdmidLTE para la parte \r
+                del usuario, la base de datos que utilize fue la de mysql.\r
             </div>\r
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
@@ -199,7 +212,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
             </div>\r
             <div class="modal-body">\r
-                Trabajando la web y go\r
+                Este fue un proyecto pequeño para ver como funcionaba go y la web,\r
+                utilize como base de datos mysql.\r
             </div>\r
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
@@ -219,7 +233,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
             </div>\r
             <div class="modal-body">\r
-                Aprendiendo conceptos de rest y docker\r
+                Aqui desarrolle una Api donde se aprendio sobre get, post, para el amnejo de\r
+                información, y utilize docker para manejar la base de datos que es PosgretSql.\r
             </div>\r
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
@@ -227,4 +242,4 @@
             </div>\r
         </div>\r
     </div>\r
-</div>`,l=e=>{(()=>{const t=document.createElement("div");t.innerHTML=o,document.querySelector(e).append(t)})()};l("#app-modal");
+</div>`,l=t=>{(()=>{const e=document.createElement("div");e.innerHTML=o,document.querySelector(t).append(e)})()};l("#app-modal");
