@@ -2,6 +2,18 @@ body{
   background-color: aqua;
 }
 
+#header{
+  background-color: rgb(5, 5, 30);
+}
+
 footer{
-  background-color: rgb(89, 89, 248);
+  /* width: 1260px; */
+  background-color: #1B1E1F;
+  border: 1px solid #333;
+  color: #d1d4d6;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 20px gray;
 }
