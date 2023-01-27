@@ -106,7 +106,7 @@
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
                 <a class="btn btn-primary" href="https://gitlab.com/santiagoeor/subastasenlinea"\r
-                    target="_blank">GitHub</a>\r
+                    target="_blank">GitLab</a>\r
             </div>\r
         </div>\r
     </div>\r
@@ -150,7 +150,7 @@
             </div>\r
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
-                <a class="btn btn-primary" href="https://gitlab.com/santiagoeor/ventas" target="_blank">GitHub</a>\r
+                <a class="btn btn-primary" href="https://gitlab.com/santiagoeor/ventas" target="_blank">GitLab</a>\r
             </div>\r
         </div>\r
     </div>\r
