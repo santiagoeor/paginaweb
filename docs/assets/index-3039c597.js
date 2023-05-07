@@ -233,8 +233,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
             </div>\r
             <div class="modal-body">\r
-                Aqui desarrolle una Api donde se aprendio sobre get, post, para el amnejo de\r
-                información, y utilize docker para manejar la base de datos que es PosgretSql.\r
+                Aqui desarrolle una Api donde se aprendio sobre get, post, para el manejo de la\r
+                información, y utilize docker, para manejar la base de datos que es PosgretSql.\r
             </div>\r
             <div class="modal-footer">\r
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
