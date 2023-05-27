@@ -1,4 +1,4 @@
-(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))d(a);new MutationObserver(a=>{for(const s of a)if(s.type==="childList")for(const r of s.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&d(r)}).observe(document,{childList:!0,subtree:!0});function n(a){const s={};return a.integrity&&(s.integrity=a.integrity),a.referrerpolicy&&(s.referrerPolicy=a.referrerpolicy),a.crossorigin==="use-credentials"?s.credentials="include":a.crossorigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function d(a){if(a.ep)return;a.ep=!0;const s=n(a);fetch(a.href,s)}})();const o=`<!-- Modal de Almacen Virtual -->\r
+(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))n(a);new MutationObserver(a=>{for(const e of a)if(e.type==="childList")for(const r of e.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&n(r)}).observe(document,{childList:!0,subtree:!0});function d(a){const e={};return a.integrity&&(e.integrity=a.integrity),a.referrerpolicy&&(e.referrerPolicy=a.referrerpolicy),a.crossorigin==="use-credentials"?e.credentials="include":a.crossorigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function n(a){if(a.ep)return;a.ep=!0;const e=d(a);fetch(a.href,e)}})();const o=`<!-- Modal de Almacen Virtual -->\r
 <div class="modal fade" id="almacenVirtual" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"\r
     aria-labelledby="staticBackdropLabel" aria-hidden="true">\r
     <div class="modal-dialog modal-dialog-scrollable">\r
@@ -242,4 +242,51 @@
             </div>\r
         </div>\r
     </div>\r
-</div>`,l=t=>{(()=>{const e=document.createElement("div");e.innerHTML=o,document.querySelector(t).append(e)})()};l("#app-modal");
+</div>\r
+\r
+<!-- Modal de Api pendientes en Laravel -->\r
+<div class="modal fade" id="ApiPendienteLaravel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"\r
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">\r
+    <div class="modal-dialog modal-dialog-scrollable">\r
+        <div class="modal-content">\r
+            <div class="modal-header">\r
+                <h5 class="modal-title" id="staticBackdropLabel">Api Rest Laravel De Pendientes</h5>\r
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
+            </div>\r
+            <div class="modal-body">\r
+                Aqui desarrolle una Api donde aprendi a utilizar las migraciones en laravel relaciones de tablas,\r
+                utilize base de datos Mysql, aprendi ha hacer un login y que devuelve un token JWT, cree los modelos y controladores,\r
+                para crear, editar, actualizar y eliminar usuarios, lo mismo hice pa las categorias y pendientes, aprendi a crear los \r
+                <b>Endpoints</b> con los metodos http, get, post, put, delete.\r
+            </div>\r
+            <div class="modal-footer">\r
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
+                <a class="btn btn-primary" href="https://github.com/santiagoeor/Api_pendientes.git" target="_blank">GitHub</a>\r
+            </div>\r
+        </div>\r
+    </div>\r
+</div>\r
+<!-- Modal de Cliente de pendiente en Angular -->\r
+<div class="modal fade" id="ClientPendientAngular" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"\r
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">\r
+    <div class="modal-dialog modal-dialog-scrollable">\r
+        <div class="modal-content">\r
+            <div class="modal-header">\r
+                <h5 class="modal-title" id="staticBackdropLabel">Cliente De Pendientes En Angular</h5>\r
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\r
+            </div>\r
+            <div class="modal-body">\r
+                Aqui desarrolle el fontend para consumir mi Api de pendientes en laravel utilizando angular,\r
+                donde pude poner en practica los conocimientos aquiridos en el curso de Angular, utilize \r
+                un interceptor para enviar el token que me da el backend al hacer el login, cree un guardian para \r
+                proteger las rutas, y tambien agregue por defecto que fuera una <b>PWA</b>, utilizo Lazy-loading para \r
+                cargar los modulos de users, categorias y pendientes. también utilize loading a la hora de cargar listado,\r
+                crearlos, editarlos y eliminarlos los usuarios, categorias y pendientes.\r
+            </div>\r
+            <div class="modal-footer">\r
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r
+                <a class="btn btn-primary" href="https://github.com/santiagoeor/clientPendientes.git" target="_blank">GitHub</a>\r
+            </div>\r
+        </div>\r
+    </div>\r
+</div>`,l=t=>{(()=>{const s=document.createElement("div");s.innerHTML=o,document.querySelector(t).append(s)})()};l("#app-modal");
